@@ -92,6 +92,9 @@ from sregym.conductor.problems.revoke_auth import MongoDBRevokeAuth
 from sregym.conductor.problems.rolling_update_misconfigured import RollingUpdateMisconfigured
 from sregym.conductor.problems.scale_pod import ScalePodSocialNet
 from sregym.conductor.problems.search_rate_retry_collapse import SearchRateRetryCollapse
+from sregym.conductor.problems.secret_rotation_partial_propagation import (
+    SecretRotationPartialPropagationAstronomyShop,
+)
 from sregym.conductor.problems.secret_rotation_stale_env_credentials import (
     SecretRotationStaleEnvCredentialsAstronomyShop,
 )
@@ -141,6 +144,7 @@ class ProblemRegistry:
             "valkey_memory_disruption": ValkeyMemoryDisruption,
             "edge_request_filter_cpu_saturation": EdgeRequestFilterCPUSaturation,
             "ephemeral_port_range_hotel_reservation": EphemeralPortRangeHotelReservation,
+            "secret_rotation_partial_propagation_astronomy_shop": SecretRotationPartialPropagationAstronomyShop,
             "secret_rotation_stale_env_credentials_astronomy_shop": SecretRotationStaleEnvCredentialsAstronomyShop,
             # # ==================== VIRTUALIZATION FAULT INJECTOR ====================
             # --- METASTABLE FAILURES ---
